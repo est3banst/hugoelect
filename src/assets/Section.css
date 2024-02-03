@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section {
+    max-width: 1260px;
+    width: 100%;
+    height: auto;
+}
+.img-hero-section {
+    width: 80%;
+}
+.container-section p {
+    font-size: 2rem;
+}

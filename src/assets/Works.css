@@ -1,0 +1,15 @@
+.social-nav-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+    .social-icon {
+      display: inline;
+      height: auto;
+      width: 50px;
+      margin: 0 1rem;
+      color: var(--greencolor);
+      border-radius: 9px;
+    }
+  
