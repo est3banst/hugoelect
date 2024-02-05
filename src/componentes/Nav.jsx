@@ -5,6 +5,7 @@ export default function Nav() {
     
     const [isOpen, setItOpen] = useState(false);
     const menuIco = isOpen ? 'open' : '';
+    
     const displayMenu = isOpen ? 'header-ul-visible' : 'header-ul';
     const settingOpen = () => {
         setItOpen(!isOpen)
@@ -53,7 +54,7 @@ export default function Nav() {
         
         <nav >
        
-       <ul className={displayMenu}>
+       <ul id='sidenav' className={displayMenu}>
         {/* <a href="" className="nav-link-a"> */}
             <li className="nav-link">
                 <h2 data-name="Inicio">Inicio</h2>

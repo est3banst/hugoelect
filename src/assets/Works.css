@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
   }
-    .social-icon {
+.social-icon {
       display: inline;
       height: auto;
       width: 50px;
@@ -12,4 +12,10 @@
       color: var(--greencolor);
       border-radius: 9px;
     }
-  
+
+.article-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
