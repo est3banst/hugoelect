@@ -6,9 +6,9 @@ export default function Works () {
         <article className='article-container'>
             
             <section className='article-section'>
-                <div>
+                <div className='section-div'>
                     <img src="/imgs/2.png" alt="" />
-                    <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
+                    <svg className='svg-works-cta' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
                         stroke="currentColor" fill="none" strokeLinecap="round" 
                         strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
                         fill="none"/><path d="M4 20l16 0" /><path d="M12 14l0 -10" />
@@ -18,9 +18,9 @@ export default function Works () {
             </section>
             
              <section className='article-section'>
-                <div>
+                <div className='section-div'>
                     <img src="/imgs/electricbusiness.png" alt="" />
-                    <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
+                    <svg className='svg-works-cta' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
                         stroke="currentColor" fill="none" strokeLinecap="round" 
                         strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
                         fill="none"/><path d="M4 20l16 0" /><path d="M12 14l0 -10" />
@@ -30,9 +30,9 @@ export default function Works () {
             </section>
             
             <section className='article-section'>
-                <div>
+                <div className='section-div'>
                    <img src="/imgs/lightup.png" alt="" /> 
-                   <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
+                   <svg className='svg-works-cta' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
                         stroke="currentColor" fill="none" strokeLinecap="round" 
                         strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
                         fill="none"/><path d="M4 20l16 0" /><path d="M12 14l0 -10" />
