@@ -21,9 +21,9 @@
 
     }
     .heading-salto {
-      font-size: 2rem;
+      font-size: clamp(1.3rem, 33px, 2.2223rem);
       font-weight: 800;
-      font-family: "Inter", sans-serif;
+      font-family: 'Söhne Halfbett', sans-serif;
     }
     .title-container {
       display: flex;

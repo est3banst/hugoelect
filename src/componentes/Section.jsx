@@ -1,21 +1,40 @@
+import { useState, useRef, useEffect } from 'react'
 import '../assets/Section.css'
+import { picsSection } from './picts'
+
 export default function Section () {
+
+    const [currentIdx, setCurrentIndex] = useState(0);
+    const heroRef = useRef();
+
+    useEffect(() => {
+        const heroImgs = heroRef.current
+        const imgsNodes = heroImgs.querySelectorAll('li > img')[currentIdx];
+        if (imgsNodes) {
+            imgsNodes.scrollIntoView({
+                behavior: 'smooth'
+            })
+        }
+    },[currentIdx])
+
+    const goToPicture = (indexPict) => {
+        setCurrentIndex(indexPict)
+    }
     return (
        <>
        <main className='main-hero-section'>
         <div className='container-section'>
-            <img src="/imgs/hugohero.png" alt="" className='img-hero-section' />
-            <span className="section-sliders">
-            <svg  id="slide-left" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
-            stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M15 6l-6 6l6 6" />
-            </svg>
-            <svg id="slide-right" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
-            stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" />
-                </svg>
-            </span>
+           <ul ref={heroRef} className='imgs-hero'>
+            {picsSection.map((pict, index) => (
+                <li className='container-imgs' key={index}>
+                    <img 
+                    className='img-hero'
+                    src={pict.imgSrc} 
+                    alt="" />
+                </li>
+            ))}
+           </ul>
+            </div>
             
         <div className="hero-cta">
             <p>Más de 20 años brindando calidad y tranquilidad a nuestros clientes</p>
@@ -34,7 +53,20 @@ export default function Section () {
                 </p>
             
         </div>
-            </div>
+          
+       <div className='dot-for-img'>
+            {
+                picsSection.map((_, ind) => (
+                    <div 
+                    className={`dots-img ${ind === currentIdx ? 'active' : ''}`}
+                    onClick={() => goToPicture(ind)}
+                    key={ind}>
+                    &#9865;
+                        </div>
+                ))
+            }
+           </div>
+            
        </main>
        </> 
     )

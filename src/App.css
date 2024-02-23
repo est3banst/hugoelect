@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Söhne';
+    src: url(TestSöhneMono-Extraleicht.otf);
+    font-family: 'Söhne Halfbett';
+    src: url(TestSöhneMono-Halbfett.otf);
+}
+
+* {
+    font-family: 'Söhne', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
