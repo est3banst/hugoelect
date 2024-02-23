@@ -175,7 +175,7 @@
     color: #fff;
     text-decoration: none;
 }
-h2 {
+.h2-navigation {
 	font-size: 3.5rem;
 	position: relative;
 	text-transform: uppercase;
@@ -184,10 +184,10 @@ h2 {
 	cursor: pointer;
 }
 
-h2:hover {
+.h2-navigation:hover {
 	transform: skew(10deg);
 }
-h2::before {
+.h2-navigation::before {
 	content: attr(data-name);
 	position: absolute;
 	top: 0;
@@ -198,13 +198,13 @@ h2::before {
 	transition: all 300ms ease;
 	padding-left: 20px;
 }
-h2:hover::before {
+.h2-navigation:hover::before {
 	top: -3px;
 	left: 0px;
 	color: var(--greencolor);
 }
 
-h2::after {
+.h2-navigation::after {
 	content: "";
 	height: 4px;
 	width: 0;
@@ -215,7 +215,7 @@ h2::after {
 	background: var(--greencolor);
 	transition: all 300ms ease;
 }
-h2:hover::after {
+.h2-navigation:hover::after {
 	width: 120%;
 	outline: 5px solid rgb(2, 0, 36);
 }

@@ -13,7 +13,7 @@
 .container-section {
    overflow: hidden;
    position: absolute;
-   max-height: 750px;
+   max-height: 900px;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -72,7 +72,7 @@
 .hero-cta {
     display: flex;
     color: #fff;
-    text-align: left;
+    text-align: center;
     width: 50%;
     z-index: 133;
     border-radius: 12px;

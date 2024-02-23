@@ -9,13 +9,27 @@ export default function Section () {
 
     useEffect(() => {
         const heroImgs = heroRef.current
-        const imgsNodes = heroImgs.querySelectorAll('li > img')[currentIdx];
-        if (imgsNodes) {
-            imgsNodes.scrollIntoView({
-                behavior: 'smooth'
-            })
-        }
+       
+        const imgWidth = heroImgs.clientWidth;
+       
+        const scrollPosition = currentIdx * imgWidth;
+       
+        heroImgs.scrollTo({
+            left: scrollPosition,
+            behavior: 'smooth'
+        })
+      
     },[currentIdx])
+
+    useEffect(() => {
+        // Set up an interval to change the slide every 2.5 seconds
+        const intervalId = setInterval(() => {
+          setCurrentIndex((prevIndex) => (prevIndex + 1) % picsSection.length);
+        }, 2500);
+    
+        return () => clearInterval(intervalId);
+      }, [currentIdx, picsSection.length]);
+    
 
     const goToPicture = (indexPict) => {
         setCurrentIndex(indexPict)
@@ -24,7 +38,8 @@ export default function Section () {
        <>
        <main className='main-hero-section'>
         <div className='container-section'>
-           <ul ref={heroRef} className='imgs-hero'>
+           <ul ref={heroRef} 
+           className='imgs-hero' >
             {picsSection.map((pict, index) => (
                 <li className='container-imgs' key={index}>
                     <img 

@@ -57,22 +57,22 @@ export default function Nav() {
        <ul id='sidenav' className={displayMenu}>
         {/* <a href="" className="nav-link-a"> */}
             <li className="nav-link">
-                <h2 data-name="Inicio">Inicio</h2>
+                <h2 className='h2-navigation' data-name="Inicio">Inicio</h2>
             </li>
             {/* </a> */}
             {/* <a href="" className="nav-link-a"> */}
             <li className="nav-link">
-                <h2 data-name="Trabajos">Trabajos</h2>
+                <h2 className='h2-navigation' data-name="Trabajos">Trabajos</h2>
             </li>
             {/* </a> */}
             {/* <a href="" className="nav-link-a"> */}
             <li className="nav-link">
-                <h2 data-name="Servicios">Servicios</h2>
+                <h2 className='h2-navigation' data-name="Servicios">Servicios</h2>
             </li>
             {/* </a> */}
             {/* <a href="" className="nav-link-a"> */}
             <li className="nav-link">
-                <h2 data-name="Contacto">Contacto</h2>
+                <h2 className='h2-navigation' data-name="Contacto">Contacto</h2>
             </li>
             {/* </a> */}
         </ul>
