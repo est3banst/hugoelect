@@ -38,6 +38,11 @@
     width: 100%;
     white-space: nowrap;
 }
+@media only screen and (width < 520px) {
+    .container-imgs {
+        min-width: 350px;
+    }
+}
 
 /* IMG */
 .img-hero {
