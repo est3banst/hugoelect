@@ -1,6 +1,7 @@
 import Hero1 from '/imgs/hugohero.png';
 import Hero2 from '/imgs/hugohero2.jpg';
 import Hero3 from '/imgs/hugoheronow.jpg';
+import Hero4 from '/imgs/reforma.jpg';
 
 
 export const picsSection = [
@@ -12,5 +13,8 @@ export const picsSection = [
     },
     {id:3,
     imgSrc: Hero3
+    },
+    {id: 4,
+    imgSrc: Hero4
     },
 ]

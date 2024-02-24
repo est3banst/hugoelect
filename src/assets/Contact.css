@@ -1,0 +1,31 @@
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+.social-icon {
+      display: inline;
+      height: auto;
+      width: 50px;
+      margin: 0 1rem;
+      color: var(--greencolor);
+      border-radius: 9px;
+  }
+
+.h2-sections {
+  font-size: 2.6rem;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+.social-a {
+  font-size: 2.3002rem;
+}
+.social-a svg {
+  width: 5rem;
+  height: 5em;
+}

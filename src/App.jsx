@@ -1,6 +1,8 @@
 import Nav from './componentes/Nav'
 import Section from './componentes/Section'
 import Works from './componentes/Works'
+import Nosotros from './componentes/About'
+import Contact from './componentes/Contact'
 import './App.css'
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Nav></Nav>
       <Section></Section>
       <Works/>
+      <Nosotros></Nosotros>
+      <Contact></Contact>
     
     </>
   )

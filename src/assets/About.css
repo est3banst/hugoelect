@@ -1,0 +1,46 @@
+.container-about {
+    background-image: url(/imgs/planos.jpeg);
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 120%;
+    min-width: 100%;
+    min-height: 560px;
+    display: flex;
+}
+.container-sections {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 1.103rem;
+    height: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    mix-blend-mode: multiply;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 8px;
+}
+.container-sections h2 {
+    font-size: 1.955rem;
+}
+.section-about {
+    width: 100%;
+    padding: .333rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-about svg {
+    width: 45px;
+    height: 45px;
+    padding-right: 8px;
+    color: #1b940e;
+}
+.section-about p {
+    font-size: 1.1023rem;
+    color: #062f81;
+}
