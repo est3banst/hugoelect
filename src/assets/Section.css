@@ -29,6 +29,7 @@
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
+    margin-bottom: 2rem;
 }
 /* LI */
 .container-imgs {
@@ -38,22 +39,16 @@
     width: 100%;
     white-space: nowrap;
 }
-@media only screen and (width < 520px) {
-    .container-imgs {
-        min-width: 350px;
-    }
-}
+
 
 /* IMG */
 .img-hero {
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     border-radius: 8px;
     height: 100%;
     min-height: 450px;
 }
-
-
 
 .dot-for-img {
     display: flex;
@@ -118,3 +113,5 @@
     75% { transform: translateY3(2.5px) }
     100% { transform: translateY(0) }
    }
+
+   
