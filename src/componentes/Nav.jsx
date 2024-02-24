@@ -15,14 +15,16 @@ export default function Nav() {
         <>
          <header className='title-container'>
          <div className='header-container'>
+         <span className='logo-container'>
+        <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
+      </span>
         <h1 className='heading-salto'>
           SALTO INSTALACIONES
+          
         </h1>
         <small className='small-salto'>SERVICIO TÉCNICO ESPECIALIZADO</small>
      
-      <span className='logo-container'>
-        <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
-      </span>
+      
        </div>
        
         <div className='header-icons'>
