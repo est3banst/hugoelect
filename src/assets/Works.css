@@ -54,7 +54,7 @@
 .contactButton {
   background: #062f81;
   color: white;
-  font-family: inherit;
+  /* font-family: 'Teko'; */
   padding: 0.45em;
   padding-left: 1em;
   font-size: 1.35rem;
@@ -79,8 +79,8 @@
   justify-content: center;
   height: 2.2em;
   width: 2.2em;
-  /* border-radius: 0.7em; */
-  box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #5b68b1;
   right: 0.3em;
   transition: all 0.3s;
 }
