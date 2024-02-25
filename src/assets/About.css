@@ -8,6 +8,7 @@
     min-width: 100%;
     min-height: 560px;
     display: flex;
+    flex-direction: column;
 }
 .container-sections {
     width: 50%;
@@ -15,23 +16,24 @@
     display: flex;
     padding: 1.103rem;
     height: 50%;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    mix-blend-mode: multiply;
-    background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(5.5px);
-    border: 1px solid rgba(255,255,255,0.25);
+    /* mix-blend-mode: multiply; */
+    background: rgba(255, 255, 255, 0.539);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(203, 203, 203, 0.25);
     border-radius: 8px;
 }
 .container-sections h2 {
     font-size: 1.955rem;
+    font-family: 'Teko', sans-serif;
 }
 .section-about {
     width: 100%;
     padding: .333rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .section-about svg {
@@ -40,6 +42,21 @@
     padding-right: 8px;
     color: #1b940e;
 }
+.div-for-h2 {
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.539);
+    backdrop-filter: blur(10px);
+}
+.div-for-h2 h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.6023rem;
+    font-weight: 500;
+    
+    color: #000;
+}
+
 .section-about p {
     font-size: 1.1023rem;
     color: #062f81;

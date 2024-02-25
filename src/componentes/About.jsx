@@ -42,6 +42,11 @@ const Nosotros = () => {
         <path d="M10 13v1m0 -8v1" />
         </svg> <p>TRANSPARENCIA DE COSTOS</p>
     </section>
+    
+    
+        </div>
+        <div className='div-for-h2'>
+        <h2>Tu tranquilidad eléctrica comienza con nosotros</h2>
         </div>
 </div>
       </>

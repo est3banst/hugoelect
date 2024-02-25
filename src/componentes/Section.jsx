@@ -56,7 +56,7 @@ export default function Section () {
                 
                     <a className='call-now-a' href="tel://+59898414718">
                         
-                    <p>Contacte hoy
+                    <p className='contact-now'>Contacte hoy
                         <svg className='phone-now-icon' width="24" height="24" viewBox="0 0 24 24" 
                         strokeWidth="2" 
                         stroke="currentColor" 

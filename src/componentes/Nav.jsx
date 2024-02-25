@@ -13,19 +13,18 @@ export default function Nav() {
     
     return (
         <>
-         <header className='title-container'>
-         <div className='header-container'>
-         <span className='logo-container'>
-        <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
-      </span>
-        <h1 className='heading-salto'>
-          SALTO INSTALACIONES
-          
-        </h1>
-        <small className='small-salto'>SERVICIO TÉCNICO ESPECIALIZADO</small>
-     
-      
-       </div>
+        <header className='title-container'>
+        <div className='header-container'>
+            <span className='logo-container'>
+            <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
+            </span>
+            <h1 className='heading-salto'>
+            SALTO INSTALACIONES
+            
+            </h1>
+           </div>
+           <small className='small-salto'>SERVICIO TÉCNICO ESPECIALIZADO</small>
+       
        
         <div className='header-icons'>
         <div id="nav-icon1" className={menuIco} onClick={settingOpen}>
