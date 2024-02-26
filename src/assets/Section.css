@@ -119,6 +119,20 @@
    }
 
 @media (width < 500px) {
+    .main-hero-section {
+        min-height: 400px;
+        max-width: 500px;
+    }
+    .container-section {
+        max-height: 400px;
+    }
+    .imgs-hero {
+        max-width: 500px;
+    }
+    .container-imgs {
+        min-width: 400px;
+        max-width: 500px;
+    }
     .img-hero {
         max-width: 500px;
     }
