@@ -1,4 +1,5 @@
-import '../assets/Footer.css'
+import '../assets/Footer.css';
+import Form from './Form';
 
 export default function Footer () {
 
@@ -6,27 +7,8 @@ export default function Footer () {
     return (
         <>
         <footer>
-        <div className="container">
-    <form className="form">
-      <div className="descr">Contactanos!</div>
-      <div className="input">
-          <input required="" autoComplete="off" type="text" />
-          <label htmlFor="name">Nombre</label>
-      </div>
-
-      <div className="input">
-          <input required="" autoComplete="off" name="email" type="text" />
-          <label htmlFor="email">E-mail</label>
-      </div>
-
-      <div className="input">
-          <textarea required="" cols="30" rows="1" id="message"></textarea>
-          <label htmlFor="message">Mensaje</label>
-      </div>
-      <button>Enviar mensaje →</button>
-    </form>
-</div>
-    
+      
+        <Form></Form>
 
         <div className='container-footer'>
            <a className='footer-a' href="https://www.google.com/maps/place/Agraciada,+50000+Salto,+Departamento+de+Salto/@-31.3885067,-57.9379319,17z/data=!4m10!1m2!2m1!1sAgraciada!3m6!1s0x95adc32acbacdc4b:0xf9099c5fd75d9aee!8m2!3d-31.3856407!4d-57.952567!15sCglBZ3JhY2lhZGGSAQVyb3V0ZeABAA!16s%2Fg%2F1vlzck54?entry=ttu">
