@@ -1,5 +1,6 @@
 import { useState } from "react"
 import '../assets/Nav.css'
+import { useTypingEffect } from "./useTypingEffect";
 
 export default function Nav() {
     
@@ -10,6 +11,7 @@ export default function Nav() {
     const settingOpen = () => {
         setItOpen(!isOpen)
     }
+    const titletext = useTypingEffect("SALTO INSTALACIONES", 150);
     
     return (
         <>
@@ -19,7 +21,7 @@ export default function Nav() {
             <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
             </span>
             <h1 className='heading-salto'>
-            SALTO INSTALACIONES
+            {titletext}
             
             </h1>
            </div>

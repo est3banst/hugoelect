@@ -18,6 +18,9 @@ footer {
     letter-spacing: 0.083200em;
 
 }
+.footer-a {
+    text-decoration: none;
+}
 .container-footer svg {
     color:#f5f5f5;
     width: 45px;

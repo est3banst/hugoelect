@@ -17,9 +17,9 @@ export default function Works () {
                         el proceso, desde la evaluación de tu espacio hasta la 
                         instalación completa, garantizando un rendimiento optimo y duradero</p>
                 </div>
-                <button class="contactButton">
+                <button className="contactButton">
                 Más información
-                <div class="iconButton">
+                <div className="iconButton">
                     <svg
                     height="24"
                     width="24"
@@ -45,9 +45,9 @@ export default function Works () {
                     <p>Asesoría, planificación, y verificación de instalaciones para hogar y comercio.
                     </p>
                 </div>
-                <button class="contactButton">
+                <button className="contactButton">
                 Más información
-                <div class="iconButton">
+                <div className="iconButton">
                     <svg
                     height="24"
                     width="24"
@@ -73,9 +73,9 @@ export default function Works () {
                     </p>
                     <p>Asegurá tu propiedad o negocio con nuestras instalaciones de videovigilancia en el día</p>
                 </div>
-                <button class="contactButton">
+                <button className="contactButton">
                     Más información
-                <div class="iconButton">
+                <div className="iconButton">
                     <svg
                     height="24"
                     width="24"
@@ -102,9 +102,9 @@ export default function Works () {
                     </p>
                     <p>Para aquellos que desean maximizar el disfrute de su piscina durante todo el año.</p>
                 </div>
-                <button class="contactButton">
+                <button className="contactButton">
                 Más información
-                <div class="iconButton">
+                <div className="iconButton">
                     <svg
                     height="24"
                     width="24"
@@ -130,9 +130,9 @@ export default function Works () {
                     Instalaciones domiciliarias y mantenimiento eléctrico</p>
                     <p>Desde instalaciones hasta reparaciones, nos aseguramos de que cada trabajo se realice con la más alta calidad y profesionalismo</p>
                 </div>
-                <button class="contactButton">
+                <button className="contactButton">
                 Más información
-                <div class="iconButton">
+                <div className="iconButton">
                     <svg
                     height="24"
                     width="24"
