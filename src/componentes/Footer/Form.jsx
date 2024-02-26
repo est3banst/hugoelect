@@ -1,11 +1,11 @@
-import '../assets/Form.css'
+import '../../assets/Form.css'
 
 export default function Form() {
     return (
         <div className="container">
         <form className="form">
-          <div className="descr">Contactanos!</div>
-          
+          <div className="descr">Dejanos tu mensaje!</div>
+
           <div className="input">
               <input required="" autoComplete="off" type="text" />
               <label htmlFor="name">Nombre</label>

@@ -118,5 +118,8 @@
     100% { transform: translateY(0) }
    }
 
-
-   
+@media (width < 500px) {
+    .img-hero {
+        max-width: 500px;
+    }
+}

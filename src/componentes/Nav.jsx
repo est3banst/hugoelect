@@ -1,6 +1,6 @@
 import { useState } from "react"
 import '../assets/Nav.css'
-import { useTypingEffect } from "./useTypingEffect";
+import { useTypingEffect } from "./hooks/useTypingEffect";
 
 export default function Nav() {
     

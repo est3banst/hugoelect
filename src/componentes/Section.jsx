@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import '../assets/Section.css'
-import { picsSection } from './picts'
+import { picsSection } from './data/picts'
 
 export default function Section () {
 

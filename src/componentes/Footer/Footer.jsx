@@ -1,4 +1,4 @@
-import '../assets/Footer.css';
+import '../../assets/Footer.css'
 import Form from './Form';
 
 export default function Footer () {
