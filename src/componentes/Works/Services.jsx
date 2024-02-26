@@ -5,7 +5,8 @@ import Panels from '/imgs/paneles.jpeg'
 import Tecnico from '/imgs/business.jpeg'
 import Video from '/imgs/cameras.jpeg'
 import Pool from '/imgs/poolclima.jpeg'
-import House from '/imgs/ilumina.jpeg'
+import Houselights from '/imgs/ilumina.jpeg'
+
 
 export default function Services () {
     return (
@@ -46,7 +47,7 @@ export default function Services () {
       
     />
     /<Works 
-      src={House}
+      src={Houselights}
       alt='Instalaciones, mantenimiento o reparaciones eléctricas en domicilio o comercios'
       title='Instalaciones domiciliarias y mantenimiento eléctrico'
       descr='Desde instalaciones hasta reparaciones, 
