@@ -94,10 +94,10 @@
   #nav-icon1 span{
     display: block;
     position: absolute;
-    height: 5px;
+    height: 3px;
     z-index: 150;
     width: 40px;
-    background: var(--greencolor);
+    background: #000;
     border-radius: 9px;
     left: 20%;
     -webkit-transform: rotate(0deg);
@@ -257,3 +257,12 @@
        transform: skewX(10deg) skewY(-10deg);
     }
   }
+
+@media (width < 560px) {
+  .header-container {
+    margin: auto 0;
+  }
+  .heading-salto {
+    text-align: left;
+  }
+}

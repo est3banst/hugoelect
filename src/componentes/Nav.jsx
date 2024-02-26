@@ -29,11 +29,12 @@ export default function Nav() {
        
        
         <div className='header-icons'>
-        <div id="nav-icon1" className={menuIco} onClick={settingOpen}>
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
+                <div id="nav-icon1" className={menuIco} onClick={settingOpen}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+        
 
             <span id="insta">
             <svg className='header-social-icon' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2"
