@@ -20,15 +20,22 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      background: #939292;
+      background-image: url(/imgs/navbg.jpeg);
+      background-blend-mode: multiply;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 20%;
+      /* background: #939292;
       background: -webkit-linear-gradient(180deg, #939292 0%, #ececec 50%, #e3e0e0 100%);
       background: linear-gradient(180deg, #939292 0%, #ececec 50%, #c0c0c0 100%);
-    }
+     */
+}
 .header-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  /* color: #fff; */
   margin: auto 1.3rem;
 }
 .logo-container {
