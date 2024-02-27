@@ -30,19 +30,19 @@
       
   }
 .social-icon.email {
-  background-color: #fd1d1d;
+  background-color: rgba(253, 29, 29, 0.55);
   color: #fff;
   border-bottom: 1px solid #000;
 }
 .social-icon.insta {
-  background-color: #c13584;
+  background-color: rgba(193, 53, 132, 0.55);
   
   color: #fff;
   border-bottom: 1px solid #000;
 }
 
 .social-icon.face {
-  background-color: #4267B2;
+  background-color: rgba(66, 103, 178, 0.55);
   color:#fff;
   
   border-bottom: 1px solid #000;

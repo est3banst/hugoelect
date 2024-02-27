@@ -88,8 +88,10 @@
 .hero-cta p {
     font-size: clamp(0.833rem, 1.682rem, 2.034rem);
 }
+
 .contact-now {
     font-family: 'Teko', sans-serif;
+    margin: auto 0;
 }
 .call-now-a {
     text-decoration: none;
@@ -128,11 +130,11 @@
     }
     .imgs-hero {
         max-width: 500px;
-        gap: 0;
+        gap: 10px;
         
     }
     .container-imgs {
-        min-width: 498px;
+        min-width: 400px;
         width:100%;
         max-width: 500px;
     }
@@ -144,8 +146,13 @@
     }
     .call-now-a {
         padding: 0 .6rem;
+        display: flex;
     }
     .hero-cta p {
         font-size: 18px;
+    }
+    .hero-cta > .hero-cta-p {
+        font-size: .834rem;
+        padding: 8px;
     }
 }

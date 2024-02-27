@@ -46,7 +46,7 @@ export default function Services () {
       de su piscina durante todo el año'
       
     />
-    /<Works 
+    <Works 
       src={Houselights}
       alt='Instalaciones, mantenimiento o reparaciones eléctricas en domicilio o comercios'
       title='Instalaciones domiciliarias y mantenimiento eléctrico'

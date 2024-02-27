@@ -51,12 +51,12 @@ export default function Section () {
             </div>
             
         <div className="hero-cta">
-            <p>Más de 20 años brindando calidad y tranquilidad a nuestros clientes</p>
+            <p className='hero-cta-p'>Más de 20 años brindando calidad y tranquilidad a nuestros clientes</p>
             
                 
                     <a className='call-now-a' href="tel://+59898414718">
                         
-                    <p className='contact-now'>Contacte hoy
+                    <p className='contact-now'>Contacte hoy</p>
                         <svg className='phone-now-icon' width="24" height="24" viewBox="0 0 24 24" 
                         strokeWidth="2" 
                         stroke="currentColor" 
@@ -67,7 +67,7 @@ export default function Section () {
                         -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                         <path d="M15 9l5 -5" /><path d="M15 5l0 4l4 0" />
                         </svg>
-                        </p>
+                        
                     </a><p>
                     a un profesional de confianza
                     </p>
