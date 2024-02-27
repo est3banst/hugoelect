@@ -36,8 +36,8 @@ export default function Nav() {
                 <span></span>
             </div>
         
-            <a href="https://www.instagram.com/saltoinstalaciones/">
-                <span id="insta">
+            <a id="insta" href="https://www.instagram.com/saltoinstalaciones/">
+                <span>
                 <svg className='header-social-icon' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2"
                     stroke="currentColor" fill="none" strokeLinecap="round" 
                     strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -47,8 +47,8 @@ export default function Nav() {
                 </svg>
                 </span>
             </a>
-            <a href="https://www.facebook.com/salto.salto.9678?mibextid=ZbWKwL">
-                <span id="face">
+            <a id="face" href="https://www.facebook.com/salto.salto.9678?mibextid=ZbWKwL">
+                <span>
                 <svg className='header-social-icon' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
                     stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
