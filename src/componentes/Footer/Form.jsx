@@ -5,7 +5,7 @@ import { API_KEY } from '../data/form'
 export default function Form() {
     const [ state, handleSubmit ] = useForm(API_KEY);
     if (state.succeeded) {
-        return <p>Gracias por contactarnos, nos comunicaremos a la brevedad!</p>
+        return <p className='contacto-form'>Gracias por contactarnos, nos comunicaremos a la brevedad!</p>
     }
     return (
         <div className="container">
