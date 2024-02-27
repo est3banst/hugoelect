@@ -1,6 +1,12 @@
+import '../../assets/Services.css'
+
+import Nav from  '../Nav'
+import Footer from '../Footer/Footer'
+
 export default function House() {
     return (
         <>
+        <Nav />
         <div className="container-services">
             <section>
                 <h3>
@@ -33,6 +39,7 @@ export default function House() {
                 la confiabilidad a largo plazo del sistema eléctrico.
                  </p>
         </div>
+        <Footer />
         </>
     )
 }

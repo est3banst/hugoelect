@@ -1,6 +1,12 @@
+import Nav from '../Nav'
+import Footer from '../Footer/Footer'
+
+import '../../assets/Services.css'
+
 export default function Panel() {
     return (
         <>
+        <Nav />
         <div className="container-services">
             <section>
                 <h3>
@@ -20,6 +26,7 @@ export default function Panel() {
                 <img src="" alt="" />
             </section>
         </div>
+        <Footer />
         </>
     )
 }

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Works from "./Works"
 import '../../assets/Works.css'
 
@@ -14,6 +16,7 @@ export default function Services () {
     <div className='container-color'>
             
         <h2 className='h2-sections'>SERVICIOS</h2>
+    <Link to='paneles'>
     <Works
       src={Panels}
       alt='Instalación y mantenimiento de paneles solares'
@@ -22,7 +25,8 @@ export default function Services () {
       el proceso, desde la evaluación de tu espacio hasta la 
       instalación completa, garantizando un rendimiento optimo y duradero'
     />
-      
+    </Link>
+    <Link to='/industria'>
     <Works 
       src={Tecnico}
       alt='Instalaciones eléctricas cumpliendo con reglamentación de UTE'
@@ -30,6 +34,8 @@ export default function Services () {
       descr='Asesoría, planificación, y verificación de
       instalaciones para hogar y comercio.'     
     />
+    </Link>
+    <Link to='/cctv'>
     <Works 
       src={Video}
       alt='Instalaciones de sistemas de videovigilancia en el día'
@@ -38,6 +44,8 @@ export default function Services () {
       de videovigilancia en el día'
 
     />
+    </Link>
+    <Link to='/climatizacion'>
     <Works 
       src={Pool}
       alt='Sistemas de climatización eficiente para todo tipo de piscinas'
@@ -46,6 +54,8 @@ export default function Services () {
       de su piscina durante todo el año'
       
     />
+    </Link>
+    <Link to='/viviendas'>
     <Works 
       src={Houselights}
       alt='Instalaciones, mantenimiento o reparaciones eléctricas en domicilio o comercios'
@@ -54,6 +64,7 @@ export default function Services () {
       nos aseguramos de que cada trabajo se realice
        con la más alta calidad y profesionalismo'
     />
+    </Link>
     </div>
       </>
     )
