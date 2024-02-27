@@ -20,6 +20,10 @@
   border: 1px solid #000;
 
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
 .section-div {
   position: relative;
   overflow: hidden;

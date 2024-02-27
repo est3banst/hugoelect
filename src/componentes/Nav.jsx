@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from 'react-router-dom'
 import '../assets/Nav.css'
 import { useTypingEffect } from "./hooks/useTypingEffect";
 
@@ -60,18 +61,26 @@ export default function Nav() {
        
        <ul id='sidenav' className={displayMenu}>
         
+            <Link to='/'> 
             <li className="nav-link">
                 <h2 className='h2-navigation' data-name="Inicio">Inicio</h2>
             </li>
+            </Link>
+            <Link to='/'>
             <li className="nav-link">
                 <h2 className='h2-navigation' data-name="Trabajos">Trabajos</h2>
             </li>
+            </Link>
+            <Link to='/'>
             <li className="nav-link">
                 <h2 className='h2-navigation' data-name="Servicios">Servicios</h2>
             </li>
+            </Link>
+            <Link to='/'>
             <li className="nav-link">
                 <h2 className='h2-navigation' data-name="Contacto">Contacto</h2>
             </li>
+            </Link>
         </ul>
         
         </nav>
