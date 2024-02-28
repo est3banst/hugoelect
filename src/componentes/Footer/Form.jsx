@@ -13,7 +13,8 @@ export default function Form() {
           <div className="descr">Dejanos tu mensaje!</div>
 
           <div className="input">
-              <input 
+              <input
+              className='input-form' 
               required='' 
               autoComplete='off' 
               type='text'
@@ -28,7 +29,8 @@ export default function Form() {
           </div>
     
           <div className='input'>
-              <input 
+              <input
+              className='input-form' 
               required='' 
               autoComplete='off' 
               name='email' 
@@ -57,7 +59,7 @@ export default function Form() {
                 errors={state.errors}
               />
           </div>
-          <button type='submit' disabled={state.submitting}>Enviar mensaje →</button>
+          <button className='button-form' type='submit' disabled={state.submitting}>Enviar mensaje →</button>
         </form>
     </div>
     )
