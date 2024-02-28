@@ -56,15 +56,15 @@
     text-transform: uppercase;
   }
   
-  .input :is(input:focus, input:valid)~label {
+  .input :is(input:focus, input:valid) ~ label {
     transform: translateY(-50%) scale(.9);
     margin: 0em;
     padding: 0.4em;
     background: transparent;
   }
   
-  .input textarea:focus ~label,
-  .input textarea:valid ~label {
+  .input textarea:focus ~ label,
+  .input textarea:valid ~ label {
     transform: translateY(-50%) scale(.9);
     margin: 0em;
     padding: 0.4em;
