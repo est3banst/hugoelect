@@ -10,8 +10,7 @@ export default function Form() {
     return (
         <div className="container">
         <form onSubmit={handleSubmit} className="form">
-          <div className="descr">Dejanos una breve descripción de tu proyecto
-           y nos pondremos en contacto!</div>
+          <div className="descr">Dejanos un mensaje!</div>
 
           <div className="input">
               <input
