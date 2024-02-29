@@ -1,6 +1,6 @@
 .container {
     width: 350px;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,8 +46,6 @@
   
   .input label {
     font-size: 100%;
-    position: absolute;
-    left: 0;
     color: #e8e8e8;
     padding: 0.7em;
     margin-left: 0.1em;
@@ -56,24 +54,7 @@
     text-transform: uppercase;
   }
   
-  .input :is(input:focus, input:valid) ~ label {
-    transform: translateY(-50%) scale(.9);
-    margin: 0em;
-    padding: 0.4em;
-    background: transparent;
-  }
-  
-  .input textarea:focus ~ label,
-  .input textarea:valid ~ label {
-    transform: translateY(-50%) scale(.9);
-    margin: 0em;
-    padding: 0.4em;
-    background: transparent;
-  }
-  
-  .inputGroup :is(input:focus, input:valid) {
-    border-color: rgb(37, 37, 211);
-  }
+
   
   .button-form {
     color: #e8e8e8;
@@ -81,11 +62,11 @@
     align-self: flex-start;
     padding: 0.6em;
     border: none;
+    margin-top: 6px;
     cursor: pointer;
     margin-bottom: 50px;
     background: transparent;
     transition: all 0.3s ease-in-out;
-    position: relative;
     overflow: hidden;
   }
   

@@ -20,11 +20,13 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      background-image: url(/imgs/navbg.jpeg);
+      background: rgb(212,208,208);
+      background: linear-gradient(180deg, rgba(212,208,208,0.9360994397759104) 55%, rgba(136,136,136,1) 75%, rgba(134,134,134,0.9865196078431373) 88%, rgba(116,116,116,1) 95%);
+      /* background-image: url(/imgs/navbg.jpeg);
       background-blend-mode: multiply;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: 50% 20%;
+      background-position: 50% 20%; */
       /* background: #939292;
       background: -webkit-linear-gradient(180deg, #939292 0%, #ececec 50%, #e3e0e0 100%);
       background: linear-gradient(180deg, #939292 0%, #ececec 50%, #c0c0c0 100%);
@@ -59,7 +61,8 @@
   text-shadow: -1px 5px 7px rgba(122, 122, 122, 0.92);
 }
 .small-salto {
-  margin-top: 1rem;
+  margin-top: .3rem;
+  margin-bottom: 6px;
 }
 .header-icons {
   display: flex;

@@ -25,8 +25,8 @@ export default function Panel() {
                         </div>
                         <figcaption>
                         Instalación de paneles solares
-                            <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
-                            Hace la elección inteligente elegi la energía solar!.</span>
+                        <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
+                            Hacé la elección inteligente elegí la energía solar!</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -37,8 +37,8 @@ export default function Panel() {
                         </div>
                         <figcaption>
                         Instalación de paneles solares
-                            <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
-                            Hace la elección inteligente elegi la energía solar!.</span>
+                        <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
+                            Hacé la elección inteligente elegí la energía solar!</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -49,8 +49,8 @@ export default function Panel() {
                         </div>
                         <figcaption>
                         Instalación de paneles solares
-                            <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
-                            Hace la elección inteligente elegi la energía solar!.</span>
+                        <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
+                            Hacé la elección inteligente elegí la energía solar!</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -62,7 +62,7 @@ export default function Panel() {
                         <figcaption>
                         Instalación de paneles solares
                             <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
-                            Hace la elección inteligente elegi la energía solar!.</span>
+                            Hacé la elección inteligente elegí la energía solar!</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -73,8 +73,8 @@ export default function Panel() {
                         </div>
                         <figcaption>
                         Instalación de paneles solares
-                            <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
-                            Hace la elección inteligente elegi la energía solar!.</span>
+                        <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
+                            Hacé la elección inteligente elegí la energía solar!</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -85,8 +85,8 @@ export default function Panel() {
                         </div>
                         <figcaption>
                         Instalación de paneles solares
-                            <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
-                            Hace la elección inteligente elegi la energía solar!.</span>
+                        <span className='job-info'>Por qué no aprovechar la energía del sol para reducir tus costes energéticos?
+                            Hacé la elección inteligente elegí la energía solar!</span>
                         </figcaption>
                     </figure>
                 </li>
