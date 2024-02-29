@@ -42,15 +42,15 @@
   margin: auto 1.3rem;
 }
 .logo-container {
-  width: 120px;
+  width: 200px;
+  height: 120px;
   animation: shift 5s ease-in-out infinite alternate;
   transform: skewX(0deg);
   mix-blend-mode: multiply;
-  
   z-index: 1;
 }
 .saltologo {
-    width: 90%;
+    width: 240px;
     min-width: 120px;
 
 }
