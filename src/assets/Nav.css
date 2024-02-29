@@ -63,6 +63,7 @@
 .small-salto {
   margin-top: .3rem;
   margin-bottom: 6px;
+  font-style: italic;
 }
 .header-icons {
   display: flex;
@@ -286,7 +287,8 @@
   .heading-salto {
     text-align: left;
     font-size: 1.76rem;
-    text-shadow: 2px 1px 3px #000;
+    letter-spacing: 0.044em;
+    text-shadow: 2.45px 1px 3px #000;
   }
   .saltologo {
     width: 300px;
