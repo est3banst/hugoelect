@@ -12,7 +12,7 @@ export default function Nav() {
     const settingOpen = () => {
         setItOpen(!isOpen)
     }
-    const titletext = useTypingEffect("SALTO INSTALACIONES", 150);
+    const titletext = useTypingEffect("SERVICIO TÉCNICO ESPECIALIZADO", 100);
     
     return (
         <>
@@ -22,13 +22,12 @@ export default function Nav() {
             <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
             </span>
             <h1 className='heading-salto'>
-            {titletext}
+            SALTO INSTALACIONES
             
             </h1>
            </div>
-           <small className='small-salto'>SERVICIO TÉCNICO ESPECIALIZADO</small>
-       
-       
+           <small className='small-salto'>{titletext}</small>
+     
         <div className='header-icons'>
             <div id="nav-icon1" className={menuIco} onClick={settingOpen}>
                 <span></span>
