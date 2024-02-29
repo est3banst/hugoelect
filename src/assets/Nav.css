@@ -281,9 +281,12 @@
   .heading-salto {
     text-align: left;
     font-size: 1.76rem;
+    font-family: 'Montserrat';
+    text-shadow: 2px 1px 3px #000;
   }
   .saltologo {
-    width: 150px;
+    width: 200px;
+    height: 150px;
   }
   .logo-container {
     width: 100%;
