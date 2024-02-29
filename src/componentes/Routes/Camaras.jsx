@@ -82,19 +82,19 @@ export default function Camaras() {
                 </ul>  
             <ul className='carousel__thumbnails'>
                 <li>
-                    <label htmlFor='slide-1'><img src='/imgs/work-galler/cctv/pool.jpg' alt="" /></label>
+                    <label htmlFor='slide-1'><img src='/imgs/work-galler/cctv/cctv.jpg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-2'><img src='/imgs/work-galler/cctv/pool1.jpg' alt="" /></label>
+                    <label htmlFor='slide-2'><img src='/imgs/work-galler/cctv/cctv1.jpg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-3'><img src='/imgs/work-galler/cctv/pool2.jpg' alt="" /></label>
+                    <label htmlFor='slide-3'><img src='/imgs/work-galler/cctv/cctv2.jpg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-4'><img src='/imgs/work-galler/cctv/poolone.jpg' alt="" /></label>
+                    <label htmlFor='slide-4'><img src='/imgs/work-galler/cctv/cctv3.jpg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-5'><img src='/imgs/work-galler/cctv/pooltwo.jpg' alt="" /></label>
+                    <label htmlFor='slide-5'><img src='/imgs/work-galler/cctv/cctv4.jpg' alt="" /></label>
                 </li>
                 
             </ul>

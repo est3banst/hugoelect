@@ -84,7 +84,7 @@ export default function House() {
                         <img className='route-imgs' src="/imgs/work-galler/house/housetwo.jpg" alt="" />
                         </div>
                         <figcaption>
-                        Instalaciones eléctricas domiciliares
+                        Instalaciones eléctricas domiciliarias
                             <span className='job-info'> Electricistas altamente calificados
                              y listos para atender tus demandas en la comodidad de tu hogar.</span>
                         </figcaption>
@@ -132,7 +132,7 @@ export default function House() {
                         <figcaption>
                         Instalaciones y asesoría en obras
                             <span className='job-info'>Contratar a un buen electricista es crucial para el éxito de tu obra.
-                            Desde asesoría de primera mano hasta la planificación y ejecucción de instalaciones completas.</span>
+                            Desde asesoría de primera mano hasta la planificación y ejecución de instalaciones completas.</span>
                         </figcaption>
                     </figure>
                 </li>
