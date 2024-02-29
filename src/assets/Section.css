@@ -121,7 +121,7 @@
 
    @media (width < 500px) {
     .main-hero-section {
-        min-height: 400px;
+        min-height: 470px;
         max-width: 500px;
     }
     .container-section {
