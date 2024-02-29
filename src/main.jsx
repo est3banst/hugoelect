@@ -8,6 +8,8 @@ import Panel from './componentes/Routes/Panel.jsx'
 import Negocio from './componentes/Routes/Negocio.jsx'
 import Camaras from './componentes/Routes/Camaras.jsx'
 import Climate from './componentes/Routes/Climate.jsx'
+import Service from './componentes/Service.jsx'
+import Contactanos from './componentes/Contactanos.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom' 
 
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     errorElement: <Error />
+  },
+  {
+    path:'/services',
+    element: <Service />
+  },
+  {
+    path: '/contact',
+    element: <Contactanos />
   },
   {
     path:'/viviendas',

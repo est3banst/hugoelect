@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import '../assets/Nav.css'
 import { useTypingEffect } from "./hooks/useTypingEffect";
 
-export default function Nav() {
+
+const Nav = () => {
     
     const [isOpen, setItOpen] = useState(false);
     const menuIco = isOpen ? 'open' : '';
@@ -27,13 +28,14 @@ export default function Nav() {
             </h1>
            </div>
            <small className='small-salto'>{titletext}</small>
-     
-        <div className='header-icons'>
-            <div id="nav-icon1" className={menuIco} onClick={settingOpen}>
+           <div className='header-icons'>
+            
+           
+             <div id="nav-icon1" className={menuIco} onClick={settingOpen}>
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </div> 
         
             <a id="insta" href="https://www.instagram.com/saltoinstalaciones/">
                 <span>
@@ -68,17 +70,13 @@ export default function Nav() {
                 <h2 className='h2-navigation' data-name="Inicio">Inicio</h2>
             </li>
             </Link>
-            <Link to='/'>
-            <li className="nav-link">
-                <h2 className='h2-navigation' data-name="Trabajos">Trabajos</h2>
-            </li>
-            </Link>
-            <Link to='/'>
+           
+            <Link to='/services'>
             <li className="nav-link">
                 <h2 className='h2-navigation' data-name="Servicios">Servicios</h2>
             </li>
             </Link>
-            <Link to='/'>
+            <Link to='/contact'>
             <li className="nav-link">
                 <h2 className='h2-navigation' data-name="Contacto">Contacto</h2>
             </li>
@@ -89,3 +87,5 @@ export default function Nav() {
         </>
     )
 }
+
+export default Nav;

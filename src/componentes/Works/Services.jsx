@@ -15,8 +15,8 @@ export default function Services () {
         <>
     <div className='container-color'>
             
-        <h2 className='h2-sections'>SERVICIOS</h2>
-    <Link to='paneles'>
+        <h2 className='h2-services'>SERVICIOS</h2>
+    <Link to='/paneles'>
     <Works
       src={Panels}
       alt='Instalación y mantenimiento de paneles solares'

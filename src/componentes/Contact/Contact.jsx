@@ -2,7 +2,7 @@ import '../../assets/Contact.css'
 
 export default function Contacto () {
     return (
-        <div className="social-media-icons">
+        <div id='contact' className="social-media-icons">
 <h2 className='h2-sections'>CÓMO CONTACTAR ?</h2>
 <div className='social-container'>
 <a className='social-a' href="mailto:estebeeen@outlook.com">
