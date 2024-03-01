@@ -1,10 +1,15 @@
 import '../assets/About.css'
+import { useInView } from 'react-intersection-observer'
 
 const Nosotros = () => {
+
+    const { ref: boxRef, inView: isBoxVisible } = useInView();
+    
+
     return (
 
       <>
-    <div className='container-about'>
+    <div ref={boxRef} className={`container-about ${isBoxVisible ? 'reveal-box' : ''}`}>
         <div className='container-sections'>
         <h2>
             POR QUÉ ELEGIRNOS?
