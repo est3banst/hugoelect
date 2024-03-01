@@ -1,10 +1,14 @@
 import { useState } from "react"
 import { Link } from 'react-router-dom'
 import '../assets/Nav.css'
-import { useTypingEffect } from "./hooks/useTypingEffect";
+import { useTypingEffect } from "./hooks/useTypingEffect"
+import { useInView } from 'react-intersection-observer'
 
 
 const Nav = () => {
+
+    const { ref: titleRef, inView: isTitleVisible } = useInView();
+
     
     const [isOpen, setItOpen] = useState(false);
     const menuIco = isOpen ? 'open' : '';
@@ -22,7 +26,7 @@ const Nav = () => {
             <span className='logo-container'>
             <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
             </span>
-            <h1 className='heading-salto'>
+            <h1 ref={titleRef} data-glitch='SALTO INSTALACIONES' className={`heading-salto ${isTitleVisible ? 'reveal-title' : ''}`}>
             SALTO INSTALACIONES
             
             </h1>
