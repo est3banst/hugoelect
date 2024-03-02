@@ -74,10 +74,14 @@
 }
 .div-for-h2 h2 {
     font-family: 'Teko', sans-serif;
-    font-size: 1.6023rem;
+    font-size: 1.8023rem;
     font-weight: 500;
-    
+    padding: 0 6px;
     color: #000;
+    text-align: center;
+}
+.reveal-div {
+    animation: slideInto 1s ease-out;
 }
 
 .section-about p {

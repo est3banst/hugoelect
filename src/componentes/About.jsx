@@ -50,7 +50,7 @@ const Nosotros = () => {
     
     
         </div>
-        <div className='div-for-h2'>
+        <div ref={boxRef} className={`div-for-h2 ${isBoxVisible ? 'reveal-div' : ''}`}>
         <h2>Tu tranquilidad eléctrica comienza con nosotros</h2>
         </div>
 </div>
