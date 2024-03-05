@@ -21,7 +21,7 @@
       align-items: center;
       width: 100%;
       background: rgb(212,208,208);
-      background: linear-gradient(180deg, rgb(170, 170, 175) 38%, rgba(169, 163, 163, 0.936) 40%, rgba(136,136,136,1) 75%, rgba(134,134,134,0.9865196078431373) 88%, rgba(116,116,116,1) 95%);
+      background: linear-gradient(180deg, rgb(170, 170, 175) 38%, rgba(169, 163, 163, 0.976) 40%, rgba(126,136,136,.9887) 75%, rgba(134,134,134,0.9865196078431373) 88%, rgba(116,116,116,1) 95%);
       
       /* background-image: url(/imgs/navbg.jpeg);
       background-blend-mode: multiply;
@@ -56,6 +56,7 @@
 .heading-salto {
   font-size: 2.709rem;
   font-weight: 500;
+  text-align: lefts;
   position: relative;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
