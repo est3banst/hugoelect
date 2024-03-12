@@ -14,125 +14,35 @@
     
 .title-container {
       display: flex;
-      padding: 15px;
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
+      padding: 16px;
+      justify-content: space-around;
       align-items: center;
       width: 100%;
-      background: rgb(212,208,208);
-      background: linear-gradient(180deg, rgb(170, 170, 175) 38%, rgba(169, 163, 163, 0.976) 40%, rgba(126,136,136,.9887) 75%, rgba(134,134,134,0.9865196078431373) 88%, rgba(116,116,116,1) 95%);
-      
-      /* background-image: url(/imgs/navbg.jpeg);
-      background-blend-mode: multiply;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50% 20%; */
-      /* background: #939292;
-      background: -webkit-linear-gradient(180deg, #939292 0%, #ececec 50%, #e3e0e0 100%);
-      background: linear-gradient(180deg, #939292 0%, #ececec 50%, #c0c0c0 100%);
-     */
-}
+      gap: 1rem;
+      background: #cccccc;
+   }
 
-.header-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: auto 1.3rem;
-}
-.logo-container {
-  height: 120px;
-  animation: shift 5s ease-in-out infinite alternate;
-  transform: skewX(0deg);
-  mix-blend-mode: multiply;
-  z-index: 90;
-}
-.saltologo {
-    width: 240px;
-    min-width: 120px;
+   .logo-container {
+      padding: 10px 0;
+      animation: shift 5s ease-in-out infinite alternate;
+      transform: skewX(0deg);
+      mix-blend-mode: multiply;
+      z-index: 90;
+    }
+    .saltologo {
+        width: 120px;
+        min-width: 120px;
+    }
 
-}
-.heading-salto {
-  font-size: 2.709rem;
-  font-weight: 500;
-  text-align: lefts;
-  position: relative;
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Anta', sans-serif;
-  text-shadow: -1px 5px 7px rgba(54, 48, 48, 0.92);
-}
-
-.reveal-title {
-  animation: slideIn 500ms ease-out;
-}
-@keyframes slideIn {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  30% {
-    transform: translateX(-50%);
-    opacity: .3;
-  }
-  70% {
-    transform: translateX(-10%);
-    opacity: .7;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  
-}
-.heading-salto:before {
-  content: attr(data-glitch);
-  position: absolute;
-  top: 0;
-  left: -2px;
-  width: 100%;
-  color: #fff;
-  text-shadow: 3px 5px 7px rgb(118, 121, 81);
-  overflow: hidden;
-  clip: rect(0, 900px, 0, 0);
-  animation: noise-before 4s infinite linear alternate-reverse;
-}
-
-.heading-salto:after {
-  content: attr(data-glitch);
-  position: absolute;
-  top: 0;
-  left: 2px;
-  width: 100%;
-  color: #fff;
-  text-shadow: 3.5px 5px 7px rgb(118, 121, 81);
-  overflow: hidden;
-  clip: rect(0, 900px, 0, 0);
-  animation: noise-after 2.5s infinite linear alternate-reverse;
-}
-
-.small-salto {
-  margin-top: .3rem;
-  margin-bottom: 6px;
-  color: #383737;
-  font-weight: 600;
-  letter-spacing: 0.0934em;
-  font-style: italic;
-}
-.header-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  padding: 1rem 0;
-  flex-direction: row;
+.container-menu-logo {
+   display: flex;
+   align-items: center;
 }
 .header-social-icon {
   width: 45px;
   height: 45px;
 }
-#insta {
+#insta svg{
   border-radius: 20px;
   color: #fff;
   padding: 5px;
@@ -140,20 +50,26 @@
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
-#face {
+#face svg{
   padding: 5px;
   background: #3b5998;
   color: #f7f7f7;
   border-radius: 20px;
 }
+.menu-bg {
+   width: 70px;
+   border: 1px solid #000;
+   border-radius: 4px;
+   background-color: #dddddd8f;
+}
 
 #nav-icon1{
-    width: 40px;
-    height: 20px;
+    width: 50px;
+    height: 30px;
     position: relative;
     padding: .7rem;
-    margin-right: 3rem;
-    background-color: #fff;
+    margin: auto;
+    text-align: center;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -171,11 +87,13 @@
     display: block;
     position: absolute;
     height: 3px;
+    margin: 15% 0;
+    border: 2px solid #fff;
     z-index: 150;
-    width: 40px;
-    background: #000;
+    width: 30px;
+    background: #040000;
     border-radius: 9px;
-    left: 0;
+    left: 25%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -184,7 +102,7 @@
     -moz-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
-  }
+   }
  
   
   #nav-icon1 span:nth-child(1) {
@@ -219,179 +137,6 @@
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
-  
-
-  @keyframes noise-before {
-    0% {
-       clip: rect(61px, 9999px, 52px, 0);
-    }
- 
-    5% {
-       clip: rect(33px, 9999px, 144px, 0);
-    }
- 
-    10% {
-       clip: rect(121px, 9999px, 115px, 0);
-    }
- 
-    15% {
-       clip: rect(144px, 9999px, 162px, 0);
-    }
- 
-    20% {
-       clip: rect(62px, 9999px, 180px, 0);
-    }
- 
-    25% {
-       clip: rect(34px, 9999px, 42px, 0);
-    }
- 
-    30% {
-       clip: rect(147px, 9999px, 179px, 0);
-    }
- 
-    35% {
-       clip: rect(99px, 9999px, 63px, 0);
-    }
- 
-    40% {
-       clip: rect(188px, 9999px, 122px, 0);
-    }
- 
-    45% {
-       clip: rect(154px, 9999px, 14px, 0);
-    }
- 
-    50% {
-       clip: rect(63px, 9999px, 37px, 0);
-    }
- 
-    55% {
-       clip: rect(161px, 9999px, 147px, 0);
-    }
- 
-    60% {
-       clip: rect(109px, 9999px, 175px, 0);
-    }
- 
-    65% {
-       clip: rect(157px, 9999px, 88px, 0);
-    }
- 
-    70% {
-       clip: rect(173px, 9999px, 131px, 0);
-    }
- 
-    75% {
-       clip: rect(62px, 9999px, 70px, 0);
-    }
- 
-    80% {
-       clip: rect(24px, 9999px, 153px, 0);
-    }
- 
-    85% {
-       clip: rect(138px, 9999px, 40px, 0);
-    }
- 
-    90% {
-       clip: rect(79px, 9999px, 136px, 0);
-    }
- 
-    95% {
-       clip: rect(25px, 9999px, 34px, 0);
-    }
- 
-    100% {
-       clip: rect(173px, 9999px, 166px, 0);
-    }
- }
- 
- @keyframes noise-after {
-    0% {
-       clip: rect(26px, 9999px, 33px, 0);
-    }
- 
-    5% {
-       clip: rect(140px, 9999px, 198px, 0);
-    }
- 
-    10% {
-       clip: rect(184px, 9999px, 89px, 0);
-    }
- 
-    15% {
-       clip: rect(121px, 9999px, 6px, 0);
-    }
- 
-    20% {
-       clip: rect(181px, 9999px, 99px, 0);
-    }
- 
-    25% {
-       clip: rect(154px, 9999px, 133px, 0);
-    }
- 
-    30% {
-       clip: rect(134px, 9999px, 169px, 0);
-    }
- 
-    35% {
-       clip: rect(26px, 9999px, 187px, 0);
-    }
- 
-    40% {
-       clip: rect(147px, 9999px, 137px, 0);
-    }
- 
-    45% {
-       clip: rect(31px, 9999px, 52px, 0);
-    }
- 
-    50% {
-       clip: rect(191px, 9999px, 109px, 0);
-    }
- 
-    55% {
-       clip: rect(74px, 9999px, 54px, 0);
-    }
- 
-    60% {
-       clip: rect(145px, 9999px, 75px, 0);
-    }
- 
-    65% {
-       clip: rect(153px, 9999px, 198px, 0);
-    }
- 
-    70% {
-       clip: rect(99px, 9999px, 136px, 0);
-    }
- 
-    75% {
-       clip: rect(118px, 9999px, 192px, 0);
-    }
- 
-    80% {
-       clip: rect(1px, 9999px, 83px, 0);
-    }
- 
-    85% {
-       clip: rect(145px, 9999px, 98px, 0);
-    }
- 
-    90% {
-       clip: rect(121px, 9999px, 154px, 0);
-    }
- 
-    95% {
-       clip: rect(156px, 9999px, 44px, 0);
-    }
- 
-    100% {
-       clip: rect(67px, 9999px, 122px, 0);
-    }
- }
 
   .header-ul {
     opacity: 0;
@@ -411,8 +156,8 @@
     width: 100%;
     z-index: 888;
     list-style-type: none;background: rgb(212,208,208);
-    background: radial-gradient(circle, rgba(212,208,208,0.9360994397759104) 16%, rgba(134,134,134,0.9865196078431373) 58%, rgba(136,136,136,1) 75%, rgba(116,116,116,1) 89%);
-	  color: white;
+    background-color: #dddddd;
+    color: white;
     transition: all 350ms ease-in-out;
     padding: 2rem;
     visibility: visible;
@@ -473,41 +218,6 @@
 	width: 120%;
 	outline: 5px solid rgb(2, 0, 36);
 }
-
-  @keyframes shift {
-    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
-       transform: skewX(0deg);
-    }
-  
-    41% {
-       transform: skewX(10deg);
-    }
-  
-    42% {
-       transform: skewX(-10deg);
-    }
-  
-    59% {
-       transform: skewX(40deg) skewY(10deg);
-    }
-  
-    60% {
-       transform: skewX(-40deg) skewY(-10deg);
-    }
-  
-    63% {
-       transform: skewX(10deg) skewY(-5deg);
-    }
-  
-    70% {
-       transform: skewX(-50deg) skewY(-20deg);
-    }
-  
-    71% {
-       transform: skewX(10deg) skewY(-10deg);
-    }
-  }
-
 @media (width < 520px) {
   .header-container {
     margin: auto 0;
