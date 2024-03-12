@@ -20,7 +20,7 @@ export default function HeroComp() {
             SALTO INSTALACIONES
               </h1>
               <small className='small-salto'>{titletext}</small>
-              <section>
+              <section className='hero-mid-section'>
               <a className='call-now-a' href="tel://+59898414718">
                         
                         <p className='contact-now'>Contacte hoy</p>

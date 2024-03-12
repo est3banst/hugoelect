@@ -51,9 +51,8 @@ export default function Section () {
             </div>
             
         <div className="hero-cta">
-            <p className='hero-cta-p'>Más de 20 años brindando calidad y tranquilidad 
-            a nuestros clientes</p>  
-            
+            <p className='hero-cta-p'>Más de 20 años de experiencia certificada por nuestros clientes.</p>  
+            <p className='hero-cta-p'>Comunicate hoy para agendar <strong>gratis</strong> una visita</p>
         </div>
           
        <div className='dot-for-img'>

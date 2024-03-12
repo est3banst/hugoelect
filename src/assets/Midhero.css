@@ -1,16 +1,20 @@
 .hero-main-container {
     width: 100%;
-    position: relative;
+    /* position: relative; */
     display: flex;
+    gap: .5rem;
+    justify-content: center;
     height: 90vh;
     backdrop-filter: blur(10px);
 }
 
 .hero-page-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     margin: auto 0;
-    height: 50vh;
+    height: 40vh;
+    gap: .5rem;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     border-radius: 12px;
@@ -19,16 +23,29 @@
     justify-content: space-around;
     
 }
+.hero-mid-section {
+   display: flex;
+   flex-direction:column ;
+   justify-content: center;
+   align-items: center;
+   gap: .5rem;
+}
 .call-now-a {
+   display: flex;
+   justify-content: center;
+   width: 60%;
     text-decoration: none;
     padding: 6px .7rem .3rem .5rem;
-    /* text-transform: uppercase;
-    background-color: #0bf30f90; */
-    margin: auto;
+   text-transform: uppercase;
+    background-color: #0bf30f90; 
     color: #fff;
     border-radius: 6px;
     font-weight: 600;
     /* border: 2px solid #067407; */
+}
+
+.call-now-a ~ p {
+   color: #fff;
 }
 .call-now-a svg {
     padding:3px;

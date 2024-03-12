@@ -30,8 +30,8 @@
       z-index: 90;
     }
     .saltologo {
-        width: 120px;
-        min-width: 120px;
+        width: 250px;
+        min-width: 200px;
     }
 
 .container-menu-logo {
@@ -219,32 +219,28 @@
 	outline: 5px solid rgb(2, 0, 36);
 }
 @media (width < 520px) {
-  .header-container {
-    margin: auto 0;
-    flex-direction: column;
-    align-items: center;
+  .title-container {
+    /* gap: 0; */
+    justify-content: center;
+  }
+  .container-menu-logo {
+    justify-content: space-evenly;
   
   }
-  .heading-salto {
-    text-align: left;
-    font-size: 1.76rem;
-    letter-spacing: 0.044em;
-    text-shadow: 2.45px 1px 3px #000;
+  .span-for-svg {
+    display: flex;
+    gap: .5rem;
+    margin-right: 1rem;
   }
   .saltologo {
-    width: 300px;
+    width: 250px;
+    margin-left: -3rem;
     height: 220px;
     transform: translateY(-25%);
   }
   .logo-container {
-    width: 100%;
+    /* width: 60%; */
     height: 95px;
   }
-  .header-icons {
-    width: 90%;
-  }
-  .title-container {
-    padding: 0;
-    margin: 0;
-  }
+  
 }

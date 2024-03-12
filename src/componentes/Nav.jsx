@@ -28,7 +28,7 @@ const Nav = () => {
             </div> 
             </div>
            </div>
-            <span>
+            <span className='span-for-svg'>
             <a id="insta" href="https://www.instagram.com/saltoinstalaciones/">
                 
                 <svg className='header-social-icon' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2"
