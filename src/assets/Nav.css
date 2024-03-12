@@ -14,7 +14,7 @@
     
 .title-container {
       display: flex;
-      padding: 16px;
+      padding: 0 16px;
       justify-content: space-around;
       align-items: center;
       width: 100%;
@@ -23,15 +23,14 @@
    }
 
    .logo-container {
-      padding: 10px 0;
       animation: shift 5s ease-in-out infinite alternate;
       transform: skewX(0deg);
       mix-blend-mode: multiply;
       z-index: 90;
     }
     .saltologo {
-        width: 250px;
-        min-width: 200px;
+        width: 200px;
+        min-width: 180px;
     }
 
 .container-menu-logo {
@@ -156,7 +155,7 @@
     width: 100%;
     z-index: 888;
     list-style-type: none;background: rgb(212,208,208);
-    background-color: #dddddd;
+    background-color: #cccccc;
     color: white;
     transition: all 350ms ease-in-out;
     padding: 2rem;
